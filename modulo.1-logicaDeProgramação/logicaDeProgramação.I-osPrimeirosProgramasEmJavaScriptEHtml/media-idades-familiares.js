@@ -1,8 +1,4 @@
-<meta charset="UTF-8">
 
-<h1>Qual é a média das idades de todos os sues familiares?</h1>
-
-<script>
 
         function pulaLinha(){
                 document.write("<br>");
@@ -25,9 +21,9 @@
             n++;
         }
 
+        mostra("<h1>Qual é a média das idades de todos os sues familiares?</h1>");
     var mediaIdades = totalIdades / quantosFamiliares;
     mostra("A média das idades de todos os familiares é " + mediaIdades);
 
     mostra("FIM");
     
-</script>

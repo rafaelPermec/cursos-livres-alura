@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-
-<script>
 
         function pulaLinha(){
                 document.write("<br>");
@@ -26,4 +23,4 @@
 	mostra("Não vai ter copa!");
 
 
-</script>
+

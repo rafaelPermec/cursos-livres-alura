@@ -1,9 +1,4 @@
-<meta charset="UTF-8">
 
-<input/>
-    <button>Compare com o meu segredo!</button>
-
-<script>
 
     function sorteia(){
         return Math.round(Math.random() * 10);
@@ -73,5 +68,3 @@ var achou = false;
 var button = document.querySelector("button");
     button.onclick = verifica;
 
-
-</script>

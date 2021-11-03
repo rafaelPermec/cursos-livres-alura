@@ -1,5 +1,3 @@
-<meta charset="UTF-8">
-<script>
 
     var loginCadastrado = "alura";
     var senhaCadastrada = "alura321";
@@ -27,4 +25,3 @@
 	}
 
 
-</script>

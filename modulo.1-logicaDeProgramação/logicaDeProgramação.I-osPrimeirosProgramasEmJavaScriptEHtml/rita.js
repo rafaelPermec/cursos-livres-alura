@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-
-<script>
 
 
 		//Ao declarar uma função, é convenção colocar seu nome como um verbo ou ação.
@@ -47,4 +44,3 @@
 
 	mostra("Você está vendo o resultado da função de que eu criei! : mostra();")
 
-</script>

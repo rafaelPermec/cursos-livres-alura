@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-
-<script>
 
         function pulaLinha(){
                 document.write("<br>");
@@ -19,5 +16,3 @@ for (var linha =1; linha <= 6; linha++){
     }    
     pulaLinha();
 }
-
-</script>

@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-
-<script>
 	
 	document.write("A idade do Flávio é ");
 	document.write(18+20);
@@ -11,5 +8,3 @@
 alert ("Maria nasceu em " + (2021 - 29) + "!");
 alert ("Clara nasceu em " + (2021 - 31) + "!");
 alert ("João nasceu em " + (2021 - 25) + "!");
-
-</script>

@@ -1,6 +1,3 @@
-<meta chaset="UTF-8">
-
-<script>
 
 	function pulaLinha(){
 	document.write("<hr><br>");
@@ -23,4 +20,3 @@
 	 
 
 
-</script>
