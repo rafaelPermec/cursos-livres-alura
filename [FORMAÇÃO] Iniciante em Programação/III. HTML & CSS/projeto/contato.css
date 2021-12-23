@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #bbbbbb;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li{
+  display: inline;
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+nav a:hover {
+  color: #2c2c2c;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.input-padrao, #btn-submit {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.contatos input {
+  margin: 10px;
+}
+
+#horario {
+  padding: 10px;
+}
+
+#btn-submit {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: orange;
+  transition: 300ms all ease;
+  cursor: pointer;
+}
+
+#btn-submit:hover {
+  background-color: rgb(255, 197, 91);
+  transform: scale(1.03);
+}
+
+table {
+  margin: 30px auto 40px 110px;
+}
+
+thead {
+  background: #2c2c2c;
+  color: white;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 15px 30px;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer {
+  background: url("imagens/bg.jpg");
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
